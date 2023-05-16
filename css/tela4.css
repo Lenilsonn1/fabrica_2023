@@ -1,14 +1,15 @@
-@import url(geral.css);
+@import url(./geral.css);
+
 
 .container{
-    margin-bottom: 29.5vh;
+    height: 60vh;
+   
 }
 .container .consultar{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    height: 50%;
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
 .consultar label{
     font-size: 2rem;

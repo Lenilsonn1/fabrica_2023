@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/tela4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -30,5 +34,49 @@
                     <li>teste</li>
                 </ul>
             </header>
+            <div class="container">
+                <div class="consultar">
+                    <label for="">Consultar palavras</label>
+                    <input type="text" placeholder="Ex: armas">
+                    <a class="btn-buscar" href="">buscar</a>
+                    <div class="consultar">
+                        <label for="">Consultar palavras cadastradas</label>
+                        <input type="text" placeholder="Ex: armas">
+                        <a class="btn-buscar" href="">buscar</a>
+                    </div>
+                </div>
+                </div>
+                <div class="table">
+                    <h1>Registro de Palavras</h1>
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">palavras</th>
+                            <th scope="col">ações</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">-</th>
+                            <td>assalto</td>
+                            <td><button class="btn-editar">editar</button><button class="btn-excluir">exluir</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">-</th>
+                            <td>assalto</td>
+                            <td><button class="btn-editar">editar</button><button class="btn-excluir">exluir</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">-</th>
+                            <td>assalto</td>
+                                    <td><button class="btn-editar">editar</button><button class="btn-excluir">exluir</button></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                </div>
+            </div>
+        </section>
 </body>
 </html>
